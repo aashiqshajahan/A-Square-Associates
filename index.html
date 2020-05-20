@@ -1,0 +1,195 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>A Square Associates</title>
+<link rel="icon" href="images/LOGO.png" type="image/gif" sizes="16x16">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script src="js/jquery.min.js"></script>
+<script type='text/javascript' src="js/jquery-1.11.1.min.js"></script>
+<script src="js/menu_jquery.js"></script>
+ <link rel="stylesheet" href="css/swipebox.css">
+ <!------ Light Box ------>
+    <script src="js/jquery.swipebox.min.js"></script> 
+    <script type="text/javascript">
+		jQuery(function($) {
+			$(".swipebox").swipebox();
+		});
+	</script>
+    <!------ Eng Light Box ------>
+	<script type="text/javascript" src="js/move-top.js"></script>
+       <script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+				/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+				*/
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+
+</head>
+<body>
+<!-- header -->
+	<div class="banner">
+		<div class="container">
+			<div class="header">
+				<div class="menu">												
+						<a href="#" class="right_bt" id="activator"><img src="images/menu.png" alt=""/></a>
+							<div class="box" id="box">
+								<div class="box_content">
+								   <div class="menu_box_list">
+									   <ul>
+										   <li class="active"><a href="#home" class="scroll">home</a></li>
+											<li><a href="#about" class="scroll">About us</a></li>
+											<li><a href="#contact-us" class="scroll">contact </a></li>
+												<div class="clearfix"></div>
+										</ul>
+									</div>
+									<a class="boxclose" id="boxclose"><img src="images/close.png" alt=""/></a>
+								</div>                
+							</div>
+							<script type="text/javascript" src="js/easing.js"></script>
+								 <script type="text/javascript">
+										var $ = jQuery.noConflict();
+											$(function() {
+												$('#activator').click(function(){
+														$('#box').animate({'top':'0px'},500);
+												});
+												$('#boxclose').click(function(){
+														$('#box').animate({'top':'-700px'},500);
+												});
+											});
+											$(document).ready(function(){
+											
+											//Hide (Collapse) the toggle containers on load
+											$(".toggle_container").hide(); 
+											
+											//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+											$(".trigger").click(function(){
+												$(this).toggleClass("active").next().slideToggle("slow");
+												return false; //Prevent the browser jump to the link anchor
+											});
+											
+											});
+										</script>
+				</div> 
+				<div class="messg">
+					<a href="mailto:shajahan.aashiq@gmail.com"><i class="msg"></i></a>	    
+				</div>
+						<div class="clearfix"></div>
+			</div>
+				<div class="banner-info">
+					<h1>Welcome to  <span>A Square Associates</span></h1>
+					<p>Authorised Distributors for LAZZA ICECREAMS</p>
+					<a class="learn" href="http://www.lazza.co.in/" target="_blank">Learn More</a>
+				</div>
+		</div>
+	</div>
+
+	<div class="b-design">
+		<div class="container">
+				<div class="col-md-6 dsg-1">
+					<h3>About Our Brand</h3>
+					<p>The company was founded in 1972 by Mr. M C John a retired senior bureaucrat in the Kerala government. It is currently led by Mr. Simon John, his brother Francis John and their team of eminent directors. The company is a pioneer in the ice cream industry in South India. The first factory was started in Kochi and today has over 28 factories spread across South India. The 22 factories put together has a production capacity that is among the top 5 in the country. The company has also started overseas operations in parts of Middle East and Africa.</p>
+					<a class="more" href="http://www.lazza.co.in/history/" target="_blank">Read More</a>
+				</div>
+				<div class="col-md-6 dsg-2">
+					<iframe width="450" height="375" src="https://www.youtube.com/embed/Enm5w0BXGlY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<!--<img src="images/img1.png" class="img-responsive" alt="" />-->
+				</div>
+					<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- branding -->
+	<!-- about-me -->
+	<div class="about-me" id="about">
+		<div class="container">
+			<h2>About<span style="color:rgb(201, 26, 26);">Us</span></h2>
+			<!--<i class="acent"></i>-->
+			<p style="color:black; font-weight:550 ;">Welcome to A Square associates, your number one source for all ice cream products of infamous icecream brand LAZZA. We are dedicated to giving you the very best of ice creams, with a focus on dependability, customer service and punctuality.</p>
+			<p style="color:black; font-weight:550 ;">Founded in 2019 by Arshed Shajahan and Aasif Shajahan, A Square associates has come a long way from its beginnings in a home office. Our factory is situated at Paruthikuzhi, Poonthura. We now serve customers all over trivandrum and and are thrilled to be a part of the fair trade wing of the food industry.</p>
+			</p>
+				
+		</div>			
+				<div class="location">
+					<div class="container">
+						<div class="col-md-6 igb">
+							<h6>LOCATION: <span>Kallattumukku, Thiruvananthapuram, Kerala 695009</span></h6>
+						</div>
+						<div class="col-md-3 pon">
+							<h6>PHONE: <span>9961133336<span></h6>
+						</div>
+						<div class="col-md-3">
+							<h6>EMAIL:<a href="#">asquareassociates@gmail.com</a></h6>
+						</div>
+							<div class="clearfix"></div>
+					</div>
+				</div>
+	</div>
+
+	<div class="contact" id="contact-us">
+		<div class="container">
+		<h3><span>Contact</span>Us</h3>
+		<p>We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us. We also undertake Ice cream service for marriage and other functions based on your orders. So feel free to contact us on any time.</p>
+			<div class="col-md-6">
+					<form>
+						<input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+						<input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+						<input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}">
+					</form>
+			</div>
+			<div class="col-md-6">
+					<form>
+						<textarea value="Message:" onfocus="if(this.value == 'Message') this.value='';" onblur="if(this.value == '') this.value='MESSAGE';">Message</textarea>
+					</form>
+			</div>
+				<div class="clearfix"></div>
+			<div class="button-1">
+						<a class="view" href="mailto:shajahan.aashiq@gmail.com">SUBMIT<i class="rock"></i></a>
+		</div>
+	</div>
+	<!-- contact -->
+	<div class="map">
+		<div class="container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15785.56097975128!2d76.9496001!3d8.4613777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa285ae3a37df6ad3!2sA%20Square%20Associates!5e0!3m2!1sen!2sin!4v1589967842808!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<ul>
+				<li><a href="https://www.facebook.com/arshed.shajahan"><i class="fb"></i></a></li>
+				<li><a href="https://www.instagram.com/arshedshajahan/"><i class="cam"></i></a></li>
+				<li><a href="https://goo.gl/maps/kAPkfmsJSxPAR4E87"><i class="goog"></i></a></li>
+				<li><a href="https://twitter.com/aashiqshajahan_"><i class="twt"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- footer -->
+	<div class="footer-bottom">
+		<div class="container">
+			<p>©2020 Website Designed By Aashiq Shajahan. All Right Reserved.</p>
+		</div>
+	</div>	
+	<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</body>
+</html>
